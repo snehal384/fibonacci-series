@@ -1,0 +1,25 @@
+#program to display fibonacci sequece up to nth term
+nterms=int(input("how many terms"))
+#first two numbers 
+n1=0
+n2=1
+count=0
+#check if the number is valid
+if nterms<=0:
+   print ("please enter a positive integer")
+#if there is only one term, return n1
+elif nterms==:
+   print("fibonacci sequence upto",nterms,":")
+   print(n1)
+#generate fibonacci sequence 
+else:
+   print("fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth=n1+n2
+       #update values 
+       n1=n2
+       n2=nth
+       count+=1
+       print("done")
+   
